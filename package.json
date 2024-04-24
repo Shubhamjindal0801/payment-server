@@ -1,0 +1,47 @@
+{
+  "description": "Len Den - One stop solution for all your money management problems",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "multer",
+    "aws",
+    "cors",
+    "joi",
+    "jwt",
+    "nodemon"
+  ],
+  "author": "Shubham Jindal & Pranav Sagar",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1588.0",
+    "bcrypt": "^5.1.1",
+    "connect-mongodb-session": "^5.0.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-session": "^1.18.0",
+    "joi": "^17.12.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.2.1",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "node-schedule": "^2.1.1",
+    "path": "^0.12.7",
+    "uuid": "^9.0.1"
+  },
+  "engines": {
+    "node": ">=20.11.0",
+    "npm": ">=10.5.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
